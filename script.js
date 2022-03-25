@@ -45,8 +45,12 @@ function resetGame() {
         tile.textContent = "";
         tile.classList.remove("winner");
     }
-    //set their text content to empty string
-    //remove winner class
+    gameOver = false;
+    board = [
+        ["", "", ""],
+        ["", "", ""],
+        ["", "", ""]
+    ]
 }
 
 
