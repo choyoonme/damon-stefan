@@ -51,10 +51,10 @@ hr {
     color: yellowgreen;
 }
 
-.button {
-    width: 100px;
+button {
+    margin-top: 10px;
+    width: 150px;
     height: 50px;
-    font-weight: bold;
     display: inline-block;
     justify-content: center;
 }

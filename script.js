@@ -124,3 +124,6 @@ function checkWinner() {
 }
 
 document.querySelector(".reset").addEventListener("click", resetGame);
+
+
+document.querySelector(".reset").setAttribute("style", "font-weight: bold; color: white; background-color: black; border-radius: 10px");
