@@ -61,7 +61,6 @@ button {
 
 
     @media (max-width: 768px) {
-     body {display: flex;
-        align-items: center;
+     body {
         justify-content: center}
     }
