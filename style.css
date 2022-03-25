@@ -60,4 +60,19 @@ button {
 }
 
 
-    
+@media (max-width: 528px) {
+    body {
+        transform:scale(75%)
+}
+    header {
+        text-align: center;
+    }
+    hr {
+        width: 100%        
+    }
+   
+    div#board {
+       position: relative;
+        right: 45px;
+    }
+} 
