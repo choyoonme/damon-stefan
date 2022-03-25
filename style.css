@@ -59,19 +59,19 @@ button {
     justify-content: center;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
     body {
-        position: absolute;
-        left: -45px;
-        transform: scale(75%);
-}
-    header.bros{
+        transform: scale(70%);
+    }
+     header.bros {
         font-size:30px;
-        
     }
-    hr{
+    hr {
         width: 250px;
-        
     }
- 
+    #board {
+        position:relative;
+        left:-45px;
+    }
+    
 }  
