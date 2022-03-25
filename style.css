@@ -1,28 +1,41 @@
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 hr {
     width: 500px;
     height: 3px;
-    background-color: black;
+    background: black;
 }
 
-#mysticfalls {
-    width: 450;
+#board {
+    width: 450px;
     height: 450px;
-    margin: 0px;
+    background-color: rgb(201, 175, 175);
+    margin: 0 auto;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
+}
+
+.bros {
+    font-size: 48px;
+    font-weight: bold;
 }
 
 .tile {
     width: 147px;
     height: 147px;
     font-size: 150px;
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.player {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
 }
 
 .horizontal-line {
@@ -34,6 +47,14 @@ hr {
 }
 
 .winner {
-    background-color: red;
-    color: black;
+    background-color: wheat;
+    color: yellowgreen;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    display: inline-block;
+    justify-content: center;
 }
