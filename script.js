@@ -75,9 +75,12 @@ function setTile() {
     } else {
         currPlayer = playerO;
     }
+
     checkWinner();
 
 }
+//if playerO is displayed three in a row, window alert Team Damon!
+//if playerX is displayed three in a row, window alert Team Stefan!
 
 function checkWinner() {
     //check horizontally
@@ -86,7 +89,6 @@ function checkWinner() {
             for (let i = 0; i < 3; i++) {
                 let tile = document.getElementById(r.toString() + "-" + i.toString());
                 tile.classList.add("winner");
-
             }
             gameOver = true;
             return;
@@ -125,8 +127,8 @@ function checkWinner() {
         gameOver = true;
         return;
     }
-}
 
+}
 document.querySelector(".reset").addEventListener("click", resetGame);
 
 
