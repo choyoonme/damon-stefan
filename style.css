@@ -58,3 +58,20 @@ button {
     display: inline-block;
     justify-content: center;
 }
+
+@media screen and (max-width: 375px) {
+    body {
+        transform: scale(70%);
+    }
+     header.bros {
+        font-size:30px;
+    }
+    hr {
+        width: 250px;
+    }
+    #board {
+        position:relative;
+        left:-45px;
+    }
+    
+}  
