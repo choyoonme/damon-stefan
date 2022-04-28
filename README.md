@@ -1,7 +1,12 @@
 # damon-stefan
 
 ## Tic-Tac-Toe
-This is a version of the classic game Tic-Tac-Toe themed after The Vampire Diaries characters Stefan and Damon Salvatore (Damon represents the O's and Stefan represents the X's). It is an exercise to practice HTML, CSS, and vanilla JavaScript. 
+
+This is an exercise to practice HTML, CSS, and vanilla JavaScript. 
+
+Using the structure and rules of the classic game known as Tic-Tac-Toe, this is a version themed after television show The Vampire Diaries. The characters Stefan and Damon Salvatore represent the X's and O's: an image of Damon Salvatore represents the O's and an image of Stefan Salavatore represents the X's. 
+
+
 
 ## link to game
 https://choyoonme.github.io/damon-stefan/
